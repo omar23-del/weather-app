@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <title>weather app</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="search-bar">
+                <i class='bx bx-map'></i>
+                <input class="search" placeholder="enter the city" type="text">
+                <i id="submit" class='bx bx-search'></i>
+            </div>
+            <div class="condition">
+                <img class="icon" src="imgs/clouds.png" alt>
+                <h3 class="temp">29 <span class="c">°C</span></h3>
+                    <h3 class="city">giza</h3>
+                </div>
+                <div class="weather-info">
+                    <div class="col">
+                        <img src="imgs/humidity.png" alt>
+                        <div class="deatails">
+                            <p class="humidity">56%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="imgs/wind.png" alt>
+                        <div class="deatails">
+                            <p class="wind-speed">11 km/h</p>
+                            <p>win speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="main.js"></script>
+        </body>
+    </html>
